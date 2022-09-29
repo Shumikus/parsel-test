@@ -1,0 +1,113 @@
+.client__icon_one {
+    width: 41px;
+    height: 46.7px;
+}
+
+.client__icon_two {
+    width: 40px;
+    height: 52px;
+}
+
+.client__icon_three {
+    width: 43.46px;
+    height: 41.18px;
+}
+
+.client__icon_four {
+    width: 84.44px;
+    height: 40.62px;
+}
+
+.client__icon_five {
+    width: 62.54px;
+    height: 45.43px;
+}
+
+.client__icon_sex {
+    width: 93.79px;
+    height: 43.93px;
+}
+
+.clients{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.clients__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.clients__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 210px;
+    height: 92px;
+    fill: var(--icon-color);
+    transition: border-color var(--animation-time) var(--cubic);
+    &:hover,
+    &:focus {
+        border-color: var(--nav-hover-color);
+        }
+}
+
+.clients__icon {
+    fill: var(--icon-color);
+    transition: fill var(--animation-time) var(--cubic);
+    .clients__link:hover &,
+        .clients__link:focus & {
+            fill: var(--nav-hover-color);
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .clients__link{
+        width: 226px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .clients {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
+    .clients__list {
+    display: flex;
+    gap: 30px;
+
+        .clients__link{
+        width: 170px;
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

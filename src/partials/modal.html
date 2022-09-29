@@ -1,0 +1,74 @@
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal__btn_close" data-modal-close>
+          <svg class="modal__icon">
+            <use href="./images/icon.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+        <form class="form">
+          <label class="form__label">
+            <span class="form__name">Имя</span>
+            <span class="form__wrapper">
+              <input
+                class="form__input"
+                type="text"
+                name="user-name"
+                required
+                pattern="[a-zA-Zа-яА-Я]+"
+                minlength="2"
+                autocomplete="off"
+              />
+              <svg class="form__icon">
+                <use href="./images/icon.svg#icon-person-form"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="form__label">
+            <span class="form__name">Телефон</span>
+            <span class="form__wrapper">
+              <input
+                class="form__input"
+                type="tel"
+                name="user-phone"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                minlength="10"
+                autocomplete="off"
+              />
+              <svg class="form__icon">
+                <use href="./images/icon.svg#icon-phone-form"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="form__label">
+            <span class="form__name">Почта</span>
+            <span class="form__wrapper">
+              <input class="form__input" type="email" name="user-email" required />
+              <svg class="form__icon">
+                <use href="./images/icon.svg#icon-email-form"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="form__label form__label_textarea">
+            <span class="form__name">Комментарий</span>
+            <textarea
+              class="form__input form__input_checkbox"
+              name="user-message"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+          <label class="form__label form__label_checkbox">
+            <input class="form__input_appearance" type="checkbox" />
+            <svg class="form__icon_checkbox">
+              <use class="form__checkbox_check" href="./images/icon.svg#icon-check"></use>
+            </svg>
+            Соглашаюсь с рассылкой и принимаю&nbsp;<a class="form__link" href=""
+              >Условия договора</a
+            >
+          </label>
+          <button class="form-btn-submit" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>

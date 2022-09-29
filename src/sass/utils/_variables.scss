@@ -1,0 +1,24 @@
+:root {
+    --main-color-text: #757575; /* основной цвет текста */
+    --title-text-color: #212121; /* Цвет заголовков и навигации */
+    --hero-color: #ffffff;/* Hero  color */
+    --logo-color: #2196f3;/* основной цвет логотипа */
+    --head-logo-color: #000000; /* цвет логотипа щапка */
+    --footer-logo-color: #ffffff;/* цвет логотипа подвал*/
+    --button-background: #2196f3;/* цвет заливки кнопки */
+    --hero-bg-color: #2f303a;/* цвет заливки героя */
+    --bg-header: #ffffff;/* BG цвет шапки */
+    --bg-footer-hero: #2f3040;/* BG цвет подвала */
+    --bg-section: #f5f4fa;/* BG темный цвет секций  */
+    --bg-section-light: #e5e5e5;/* BG светлый цвет секций  */
+    --nav-hover-color: #2196f3;/* цвет ховера  */
+    --address-color: rgba(255, 255, 255, 0.6);/* цвет адреса в подвале  */
+    --hover-button: #188ce8;
+    --color-border: #eeeeee;
+    --bg-portfolio: #ffffff;
+    --bg-icon: #f5f4fa;
+    --icon-color: #afb1b8;
+    --animation-time: 250ms;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+    --animation-time-modal: 450ms;
+}
